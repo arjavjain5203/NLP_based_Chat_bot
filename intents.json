@@ -180,5 +180,87 @@
             "The amenities available on the bus include Wi-Fi, air conditioning, reclining seats, and on-board restrooms.",
             "Our buses are equipped with Wi-Fi, air conditioning, reclining seats, and restrooms for your comfort."
         ]
-    }
+    },
+    {
+  "tag": "reschedule_ticket",
+  "patterns": [
+    "I want to reschedule my ticket",
+    "Can I change my travel date?",
+    "Reschedule my bus ticket",
+    "Change my ticket date",
+    "I need to postpone my ticket"
+  ],
+  "responses": [
+    "Sure, I can help you reschedule your ticket. Please provide your booking reference number and the new travel date.",
+    "To reschedule your ticket, please share your booking reference and the desired new date of travel."
+  ]
+},
+{
+  "tag": "booking_status",
+  "patterns": [
+    "What is the status of my booking?",
+    "Check my booking status",
+    "Is my ticket confirmed?",
+    "I want to know if my ticket is booked"
+  ],
+  "responses": [
+    "Please provide your booking reference number so I can check the status for you.",
+    "To check your booking status, kindly share your booking reference ID."
+  ]
+},
+{
+  "tag": "available_routes",
+  "patterns": [
+    "What are the available routes?",
+    "Show me all bus routes",
+    "Which routes are available?",
+    "I want to see the list of routes"
+  ],
+  "responses": [
+    "We offer bus services on several routes. Please mention your source and destination to get specific information.",
+    "Please specify your source and destination to see the available bus routes."
+  ]
+},
+{
+  "tag": "bus_types",
+  "patterns": [
+    "What types of buses are available?",
+    "AC or non-AC buses?",
+    "Sleeper or semi-sleeper buses?",
+    "Bus categories"
+  ],
+  "responses": [
+    "We offer a variety of buses including AC, non-AC, sleeper, semi-sleeper, and Volvo luxury buses.",
+    "You can choose from AC, non-AC, sleeper, semi-sleeper, and luxury Volvo buses as per your preference."
+  ]
+},
+{
+  "tag": "luggage_policy",
+  "patterns": [
+    "What is your luggage policy?",
+    "How much luggage can I carry?",
+    "Is there a luggage limit?",
+    "Luggage rules"
+  ],
+  "responses": [
+    "Each passenger is allowed up to 20 kg of check-in luggage and one small cabin bag.",
+    "You can carry one cabin bag and up to 20 kg of luggage per person. Extra charges may apply for excess baggage."
+  ]
+},
+    {
+  "tag": "payment_methods",
+  "patterns": [
+    "What payment methods do you accept?",
+    "Can I pay via UPI?",
+    "Do you accept credit cards?",
+    "Available payment options"
+  ],
+  "responses": [
+    "We accept UPI, credit/debit cards, net banking, and popular wallets for payment.",
+    "Yes, you can pay using UPI, cards, net banking, or wallets like Paytm and PhonePe."
+  ]
+}
+
+
+
 ]
